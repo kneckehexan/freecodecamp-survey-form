@@ -1,0 +1,71 @@
+<main>
+
+  <head>
+    <h1 id="title">Survey</h1>
+  </head>
+  <p id="description">A generic survey about nothing in particular</p>
+  <form id="survey-form">
+    <label for="name" id="name-label">Name</label></br>
+    <input type="text" id="name" name="name" placeholder="Name" required>
+    </br>
+    <label for="email" id="email-label">E-mail</label></br>
+    <input type="email" id="email" name="email" placeholder="email@example.com" required>
+    </br>
+    <label for="number" id="number-label">Number</label></br>
+    <input type="number" id="number" name="number" min="0" max="9999" placeholder="0 - 9999">
+    </br>
+    <label for="dropdown">Select</label></br>
+    <select id="dropdown" name="dropdown">
+      <option hidden selected disabled value>--Select a value--</option>
+      <option value="happy">Happy</option>
+      <option value="sad">Sad</option>
+      <option value="neither">Neither</option>
+    </select>
+    </br>
+    <fieldset>
+      <legend>Mathematics</legend>
+      <input type="radio" id="probability" name="maths" value="probability">
+      <label for="probability">Probability</label>
+      </br>
+      <input type="radio" name="maths" id="discrete" value="discrete">
+      <label for="discrete">Discrete Mathematics</label>
+      </br>
+      <input type="radio" name="maths" id="calculus" value="calculus">
+      <label for="calculus">Calculus</label>
+      </br>
+      <input type="radio" name="maths" id="linear" value="linear">
+      <label for="linear">Linear Algebra</label>
+      </br>
+      <input type="radio" name="maths" id="geometry" value="geometry">
+      <label for="geometry">Geometry</label>
+    </fieldset>
+    </br>
+    <fieldset>
+      <legend>CAD</legend>
+      <input type="checkbox" id="autocad" name="cad" value="autocad">
+      <label for="autocad">AutoCAD</label>
+      </br>
+      <input type="checkbox" id="inventor" name="cad" value="inventor">
+      <label for="inventor">Autodesk Inventor</label>
+      </br>
+      <input type="checkbox" id="proeng" name="cad" value="proeng">
+      <label for="proeng">ProEngineer</label>
+      </br>
+      <input type="checkbox" id="creo" name="cad" value="creo">
+      <label for="creo">Creo</label>
+      </br>
+      <input type="checkbox" id="catia" name="cad" value="catia">
+      <label for="catia">CATIA</label>
+      </br>
+      <input type="checkbox" id="solidw" name="cad" value="solidw">
+      <label for="solidw">Solid Works</label>
+      </br>
+    </fieldset>
+    </br>
+    <label for="comment">Additional comments:</label></br>
+    <textarea id="comment" cols="50" rows="5"></textarea>
+    </br>
+    <input type="submit" id="submit">
+  </form>
+
+</main>
